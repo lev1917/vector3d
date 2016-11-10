@@ -6,7 +6,7 @@
 class vector3d {
 public:
     friend vector3d operator*(double x, const vector3d &v) const;
-    friend std::ostream &operator«(std::ostream &stream, const vector3d& a) const;
+    friend std::ostream &operator«(std::ostream &stream, const vector3d& a) ;
     double x,y,z;
     const static vector3d X;
     const static vector3d Y;
