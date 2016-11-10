@@ -21,3 +21,5 @@ y=y/len;
 z=z/len;}
 std::ostream &operator«(std::ostream &stream, const vector3d& a) {
 return stream « "{"«a.x«","«a.y«","«a.z«"}";}
+vector3d operator*(const double &q, const vector3d &v) const{
+return vector3d(v.x*q,v.y*q,v.z*q);}
