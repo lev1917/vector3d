@@ -18,9 +18,9 @@ public:
     vector3d operator^(const vector3d &other) const;
     double operator*(const vector3d &other)const;
     vector3d operator*(double _x)const;
-    vector3d operator-();
+    vector3d operator-() const;
     double length() const;
-    void normalize();
+    void normalize(); 
 };
 
 
